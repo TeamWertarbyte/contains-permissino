@@ -1,7 +1,7 @@
 {
   "name": "contains-permission",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tiny function to check if a permission is effectively contained in a set of permissions.",
   "main": "src/index.js",
   "directories": {
     "test": "test"
@@ -16,6 +16,18 @@
   "scripts": {
     "test": "standard && mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamWertarbyte/contains-permission.git"
+  },
+  "keywords": [
+    "permission",
+    "util"
+  ],
   "author": "Wertarbyte",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TeamWertarbyte/contains-permission/issues"
+  },
+  "homepage": "https://github.com/TeamWertarbyte/contains-permission#readme"
 }
